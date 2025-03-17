@@ -63,3 +63,15 @@ function listarUmFabricante(PDO $conexao, int $idFabricante):array {
         die("Erro ao carregar fabricante: ".$erro->getMessage());
     }
 }
+
+// atualizarFabricante: usada em fabricantes/atualizar.php
+function atualizarFabricante($conexao, $idFabricante, $nomeDoFabricante):void {
+
+}
+
+
+
+
+
+
+
