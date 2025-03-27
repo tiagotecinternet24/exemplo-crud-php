@@ -7,6 +7,8 @@ if(isset($_POST["inserir"])){
     // Capturar/sanitizar os dados
 
     // Chamar a função responsável por inserir o produto e passar os parâmetros
+
+    /* NÃO SE ESQUEÇA DE TERMINAR A FUNÇÃO inserirProduto() */
     
     // Por fim, redirecionar para visualização dos produtos
 }
