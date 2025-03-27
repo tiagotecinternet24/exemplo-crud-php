@@ -6,6 +6,7 @@ function listarProdutos(PDO $conexao):array {
     $sql = "SELECT 
                 produtos.id, produtos.nome AS produto, 
                 produtos.preco, produtos.quantidade,
+                (produtos.preco * produtos.quantidade) AS total,
                 fabricantes.nome AS fabricante
             FROM produtos INNER JOIN fabricantes
             ON produtos.fabricante_id = fabricantes.id
