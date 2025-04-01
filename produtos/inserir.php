@@ -15,10 +15,11 @@ if(isset($_POST["inserir"])){
     $descricao = filter_input(INPUT_POST, "descricao", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
     // Chamar a função responsável por inserir o produto e passar os parâmetros
-
-    /* NÃO SE ESQUEÇA DE TERMINAR A FUNÇÃO inserirProduto() */
+    inserirProduto($conexao, $nome, $preco, $quantidade, $fabricanteId, $descricao);
     
     // Por fim, redirecionar para visualização dos produtos
+    header("location:visualizar.php");
+    exit;
 }
 ?>
 <!DOCTYPE html>
