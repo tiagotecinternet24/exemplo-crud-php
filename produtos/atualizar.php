@@ -1,3 +1,8 @@
+<?php
+require_once "../src/funcoes-produtos.php";
+$id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
+$produto = listarUmProduto($conexao, $id);
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 

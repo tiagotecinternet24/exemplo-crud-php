@@ -42,3 +42,7 @@ function inserirProduto(
         die("Erro ao inserir produto: ".$erro->getMessage());
     }              
 }
+
+function listarUmProduto(PDO $conexao, int $idProduto):array {
+    
+}

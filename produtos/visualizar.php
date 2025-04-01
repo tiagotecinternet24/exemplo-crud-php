@@ -32,6 +32,9 @@ $listaDeProdutos = listarProdutos($conexao);
                     <p><b>Preço: </b> <?=formatarPreco($produto["preco"])?> </p>
                     <p><b>Quantidade: </b> <?=$produto["quantidade"]?></p>
                     <p><b>Total:</b> <?=formatarPreco($produto["total"])?> </p>
+                    <p>
+                        <a class="btn btn-warning" href="atualizar.php?id=<?=$produto["id"]?>">Editar</a>
+                    </p>
                 </article>
             </div>    
 <?php endforeach; ?>            
