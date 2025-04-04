@@ -2,6 +2,23 @@
 
 ## Exercícios
 
+## Exercício 04 (04/04/2025)
+
+Faça a programação necessária para a ação de **atualizar** um produto.
+
+O que precisa *(não necessariamente nessa ordem)*:
+
+- Em `produtos/atualizar.php` (ações parecidas com o que foi feito ao inserir):
+    - Detectar quando o formulário é acionado 
+    - Capturar/sanitizar os dados do formulário
+    - Chamar a função `atualizarProduto` e passar os dados para ela
+    - Redirecionar para a página `visualizar.php`
+- Em `funcoes-produtos.php`:
+    - Criar a função `atualizarProduto`
+    - Fazer com que esta função receba os parâmetros necessários para executar o UPDATE: `conexao`, `id do produto`, `preço`, `quantidade`, `descricao` e `fabricante do produto`
+ 
+
+
 ## Exercício 03 (01/04/2025)
 
 - Em `produtos/visualizar.php`, **para cada Produto** exibido na tela, adicione um link dinâmico para a página **atualizar.php** passando o `id` do produto como parâmetro de URL.
