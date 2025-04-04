@@ -51,8 +51,7 @@ function listarUmProduto(PDO $conexao, int $idProduto):array {
         $consulta->bindValue(":id", $idProduto, PDO::PARAM_INT);
         $consulta->execute();
         return $consulta->fetch(PDO::FETCH_ASSOC);
-    }
-        catch (Exception $erro) {
-            die("Erro ao inserir produto: ".$erro->getMessage());
+    } catch (Exception $erro) {
+        die("Erro ao carregar produto: ".$erro->getMessage());
     }   
 }
