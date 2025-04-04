@@ -2,7 +2,11 @@
 
 ## Exercícios
 
-## Exercício 04 (04/04/2025)
+### Exercício 05 (04/04/2025)
+
+Faça a programação necessária para a ação de **excluir** um produto.
+
+### Exercício 04 (04/04/2025)
 
 Faça a programação necessária para a ação de **atualizar** um produto.
 
@@ -19,7 +23,7 @@ O que precisa *(não necessariamente nessa ordem)*:
  
 
 
-## Exercício 03 (01/04/2025)
+### Exercício 03 (01/04/2025)
 
 - Em `produtos/visualizar.php`, **para cada Produto** exibido na tela, adicione um link dinâmico para a página **atualizar.php** passando o `id` do produto como parâmetro de URL.
 
@@ -32,7 +36,7 @@ O que precisa *(não necessariamente nessa ordem)*:
 ***Obs.:** por enquanto, não se preocupe em mostrar qual o fabricante do produto selecionado.*
 
 
-## Exercício/Desafio 02 (27/03/2025)
+### Exercício/Desafio 02 (27/03/2025)
 
 - Pense (e implemente) uma forma de trazer na página **produtos/visualizar.php** o total de cada produto, ou seja, multiplicando `preco` por `quantidade`.
 - **Dicas:** dá pra fazer de forma direta na saída, ou via operações no comando SQL, ou usando uma nova função etc.
