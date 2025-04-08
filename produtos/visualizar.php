@@ -34,6 +34,7 @@ $listaDeProdutos = listarProdutos($conexao);
                     <p><b>Total:</b> <?=formatarPreco($produto["total"])?> </p>
                     <p>
                         <a class="btn btn-warning" href="atualizar.php?id=<?=$produto["id"]?>">Editar</a>
+                        <a class="btn btn-danger" href="excluir.php?id=<?=$produto["id"]?>">Excluir</a>
                     </p>
                 </article>
             </div>    
